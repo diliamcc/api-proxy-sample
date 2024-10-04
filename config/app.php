@@ -128,4 +128,11 @@ return [
         'password' => env('DEFAULT_SEEDER_PASSWORD'),
     ],
 
+    'public_apis' => [
+        'random_image' => [
+            'url' => env('PUBLIC_API_RANDOM_IMG_URL')
+        ]
+    ]
+
 ];
+

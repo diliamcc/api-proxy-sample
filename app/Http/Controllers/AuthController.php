@@ -23,7 +23,7 @@ class AuthController extends Controller
             ]);
         }
 
-        $token = auth()->user()->createToken('api-sample')->plainTextToken;
+        $token = auth()->user()->createToken('api-proxy-sample')->plainTextToken;
 
         return response()->json(compact('token'));
     }
