@@ -123,4 +123,9 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'default_seeders' => [
+        'username' => env('DEFAULT_SEEDER_USERNAME'),
+        'password' => env('DEFAULT_SEEDER_PASSWORD'),
+    ],
+
 ];
